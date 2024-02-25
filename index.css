@@ -494,7 +494,7 @@ header{
 }
 
 .dish-banner{
-    width: 1800px;
+    width: 1000px;
     height: 900px;
 }
 
@@ -785,4 +785,81 @@ header{
     position: relative;
     bottom: 380px;
     left: 1400px;
+}
+
+.features-container{
+    background-color: var(--smoky-black-3);
+    text-align: center;
+    height: 600px;
+}
+
+.features-content{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto ;
+}
+
+.features-item{
+    width: 280px;
+    height: 270px;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--black);
+    padding: 30px 20px;
+}
+
+.features-item h2{
+    margin: 20px 0 20px;
+}
+
+.event-container{
+    background-color: var(--black);
+    text-align: center;
+    height: 750px;
+    padding-top: 80px;
+}
+
+.event-content{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.event-item1, .event-item2, .event-item3{
+    width: 300px;
+    height: 350px;
+    padding: 30px 25px 25px;
+}
+
+.event-item1{
+    background: url(images/event-1.jpg)center/cover;
+}
+
+.event-item2{
+    background: url(images/event-2.jpg)center/cover;
+}
+
+.event-item3{
+    background: url(images/event-3.jpg)center/cover;
+}
+
+.data{
+    color: var(--white);
+    font-weight: 500;
+    background-color: var(--black);
+    width: 80px;
+    height: 18px;
+}
+
+.event-5{
+    color: var(--white);
+    margin: 190px 0 10px;
+    text-align: center;
+}
+
+.event-2{
+    color: var(--white);
+
 }
